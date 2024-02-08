@@ -31,7 +31,7 @@ class Dp_Rod_Cutting
         for(int i=0;i<length;i++){
             price[i] = scanner.nextInt();
         }
-        System.out.println(rodCutting(price,length));
+        System.out.println(rodCutting(price, length));
     }
 }
 
