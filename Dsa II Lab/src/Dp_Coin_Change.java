@@ -29,7 +29,6 @@ class Dp_Coin_Change
 
         System.out.print("Using coins: ");
         while(count!=0){
-
             System.out.print(cc[count]+ " ");
             count-=cc[count];
         }
