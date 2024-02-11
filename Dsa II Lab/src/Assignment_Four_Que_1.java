@@ -45,6 +45,7 @@ public class Assignment_Four_Que_1 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = input.nextInt();
+        
         DSU dsu = new DSU(n);
         while (true) {
             System.out.println("1. Find set representative");
