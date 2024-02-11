@@ -1,4 +1,4 @@
-import java.util.*;
+ĺimport java.util.*;
 
 class DSU {
 
@@ -18,7 +18,6 @@ class DSU {
         if (parent[x] != x) {
             parent[x] = findSet(parent[x]); // path compression
         }
-        
         return parent[x];
     }
 
