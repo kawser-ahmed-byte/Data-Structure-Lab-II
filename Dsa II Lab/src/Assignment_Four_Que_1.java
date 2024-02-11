@@ -47,6 +47,7 @@ public class Assignment_Four_Que_1 {
         int n = input.nextInt();
         
         DSU dsu = new DSU(n);
+        
         while (true) {
             System.out.println("1. Find set representative");
             System.out.println("2. Check if two elements belong to the same set");
